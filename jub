@@ -1,0 +1,27 @@
+#!/bin/sh
+j=http://code.jquery.com/jquery-latest.js
+u=http://underscorejs.org/underscore-min.js
+b=http://documentcloud.github.io/backbone/backbone-min.js
+d=https://raw.github.com/mbostock/d3/master/d3.min.js
+m=https://raw.github.com/moment/moment/master/moment.js
+z=http://zeptojs.com/zepto.min.js
+
+echoerr() { echo "$@" 1>&2; }
+
+if [ $# -eq 0 ]; then
+    libs="jub"
+else
+    libs=$1
+fi
+curlopts="${@:2}"
+
+while test -n "$libs"; do
+    char=${libs:0:1}
+    url=${!char}
+    if [ ! -z $url ]; then
+        curl $curlopts $url
+    else
+        echoerr "WARNING: Cannot find library for '$char'."
+    fi
+    libs=${libs:1}
+done
