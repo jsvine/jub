@@ -49,3 +49,6 @@ To use silent mode and also use a proxy to download just Underscore:
 
 - __jub__ might not actually save you time. Consult [this chart](http://xkcd.com/1205/) to learn more.
 
+## What About Bower?
+
+- [Bower](https://github.com/bower/bower) is a fully-fledged front-end package management system. It's highly configurable and follows best practices. __jub__ is none of these things. On the other hand, __jub__ requires zero configuration, no dependencies, and has basically zero learning curve. It's the blunt machete to bower's scalpel.
