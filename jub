@@ -3,7 +3,7 @@ j=http://code.jquery.com/jquery-latest.js
 u=http://underscorejs.org/underscore-min.js
 b=http://documentcloud.github.io/backbone/backbone-min.js
 d=https://raw.github.com/mbostock/d3/master/d3.min.js
-m=https://raw.github.com/moment/moment/master/moment.js
+m=https://raw.github.com/moment/moment/master/min/moment.min.js
 z=http://zeptojs.com/zepto.min.js
 
 echoerr() { echo "$@" 1>&2; }
