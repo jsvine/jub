@@ -20,6 +20,7 @@ while test -n "$libs"; do
     url=${!char}
     if [ ! -z $url ]; then
         curl $curlopts $url
+        echo ";"
     else
         echoerr "WARNING: Cannot find library for '$char'."
     fi
