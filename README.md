@@ -1,6 +1,6 @@
 # jub
 
-As in, "get the jub done." It's a shell script that automatically grabs the latest versions of jQuery (j), Underscore.js (u), and Backbone.js (b), so you can get on with prototyping. Prefer another combination of libraries? No problem; __jub__ is easily configurable.
+As in, "get the jub done." Or as in, "jQuery, Underscore, Backbone." It's a shell script that automatically grabs the latest versions of those libraries, so that you can get on with prototyping. Prefer another combination of libraries? No problem; __jub__ is easily configurable.
 
 ## Basic Usage
 
