@@ -19,6 +19,7 @@ The first argument passed to __jub__ defines the libraries it will download. So 
 - `d`: [d3.js](https://raw.github.com/mbostock/d3/master/d3.min.js)
 - `j`: [jQuery](http://code.jquery.com/jquery-latest.js)
 - `m`: [Moment.js](https://raw.github.com/moment/moment/master/moment.js)
+- `q`: [Queue.js](https://raw.github.com/mbostock/queue/master/queue.min.js)
 - `u`: [Underscore.js](http://underscorejs.org/underscore-min.js)
 - `z`: [Zepto.js](http://zeptojs.com/zepto.min.js)
 
